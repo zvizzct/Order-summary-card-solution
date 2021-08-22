@@ -15,7 +15,6 @@ body {
   height: 80vh;
   background-image: url("./images/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 0% -75%;
   background-color: hsl(225, 100%, 94%);
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.26);
   position: relative;
