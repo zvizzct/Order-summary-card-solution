@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Red Hat Display";
+}
+.container {
+  max-width: 1440px;
+  padding: 0.1rem;
+  height: 100vh;
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 0% -75%;
+  background-color: hsl(225, 100%, 94%);
+}
+.card {
+  width: 300px;
+  height: 475px;
+  margin: 3rem auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.205);
+  background-color: white;
+}
+.info-card h1 {
+  font-size: 1.1rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+.info-card {
+  text-align: center;
+}
+.info-card p {
+  font-size: 0.8rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+.img-card img {
+  width: 100%;
+}
+.text-card {
+  padding: 1.5rem;
+}
+.anual-plan {
+  background-color: hsl(225, 100%, 98%);
+  padding: 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+  width: 250px;
+}
+.anual-plan img {
+  width: 35px;
+  margin-right: -2.5rem;
+}
+.anual-plan p {
+  font-size: 0.8rem;
+}
+.anual-plan-flex {
+  line-height: 1.7;
+}
+.type-plan {
+  font-weight: 700;
+  color: #212529;
+}
+.price-plan {
+  color: #777;
+}
+.anual-plan a {
+  font-size: 0.7rem;
+  font-weight: 700;
+}
+.btn-bot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+}
+.btn-principal {
+  background-color: hsl(245, 75%, 52%);
+  color: #fff;
+  width: 250px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 0.8rem;
+  box-shadow: 0 7px 20px rgb(0 0 0 / 27%);
+  transition: background 0.2s;
+}
+
+.btn-secondary {
+  font-size: 0.8rem;
+  color: #777;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  transition: color 0.3s;
+}
+
+.btn-principal:hover {
+  background-color: #9775fa;
+}
+
+.btn-secondary:hover {
+  color: #212529;
+}
+.anual-plan a:link,
+.anual-plan a:visited {
+  transition: all 0.3s;
+}
+.anual-plan a:hover {
+  color: #9775fa;
+  text-decoration: none;
+}
