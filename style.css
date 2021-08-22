@@ -143,11 +143,16 @@ footer {
 }
 
 @media (max-width: 600px) {
+  body {
+    background-color: hsl(225, 100%, 94%);
+  }
   .container {
     margin: 0;
-    height: 100vh;
+    height: 95vh;
+    box-shadow: none;
   }
   footer {
     width: 100%;
+    bottom: -0.5rem;
   }
 }
