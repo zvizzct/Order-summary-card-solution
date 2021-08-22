@@ -112,20 +112,26 @@ body {
   transition: color 0.3s;
 }
 
-.btn-principal:hover {
+.btn-principal:hover,
+.btn-principal:active {
   background-color: #9775fa;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-secondary:active {
   color: #212529;
 }
 .anual-plan a:link,
 .anual-plan a:visited {
   transition: all 0.3s;
 }
-.anual-plan a:hover {
+.anual-plan a:hover,
+.anual-plan a:active {
   color: #9775fa;
   text-decoration: none;
+}
+footer {
+  position: relative;
 }
 @media (max-width: 600px) {
   .container {
@@ -133,7 +139,7 @@ body {
     margin: 0;
   }
   .card {
-    margin: 9rem auto;
+    margin: 7rem auto;
     height: 475px;
   }
 }
